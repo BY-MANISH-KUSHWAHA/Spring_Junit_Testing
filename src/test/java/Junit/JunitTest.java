@@ -1,5 +1,7 @@
-import org.example.singletonScope.ContentFiltering;
-import org.example.singletonScope.MovieRecommenderSystem;
+package Junit;
+
+import org.example.movie.ContentFiltering;
+import org.example.movie.MovieRecommenderSystem;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

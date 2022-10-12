@@ -1,7 +1,7 @@
 package org.example;
 
 
-import org.example.singletonScope.MovieRecommenderSystem;
+import org.example.movie.MovieRecommenderSystem;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

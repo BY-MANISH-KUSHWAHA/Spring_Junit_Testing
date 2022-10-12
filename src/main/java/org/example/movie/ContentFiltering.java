@@ -1,14 +1,13 @@
-package org.example.singletonScope;
+package org.example.movie;
 
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Primary;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@Primary
 public class ContentFiltering implements Filter{
     @Override
     public List<String> getRecommendedMovie() {

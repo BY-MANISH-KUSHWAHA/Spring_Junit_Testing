@@ -1,11 +1,11 @@
-package org.example.singletonScope;
+package org.example.movie;
 
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Component
 public class MultiFiltering implements Filter{
     @Override
     public List<String> getRecommendedMovie() {

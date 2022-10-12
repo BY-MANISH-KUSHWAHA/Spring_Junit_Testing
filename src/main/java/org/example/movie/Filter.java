@@ -1,4 +1,4 @@
-package org.example.singletonScope;
+package org.example.movie;
 
 import java.util.List;
 
