@@ -11,10 +11,11 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="org.example.movie"></context:component-scan>
+
+    <context:component-scan base-package="org.example.movie" use-default-filters="false"></context:component-scan>
     <context:annotation-config/>
 
-    <bean id="ContentFiltering" class="org.example.movie.ContentFiltering"/>
+    <bean id="ContentFiltering" class="org.example.movie.ContentFiltering" primary="true" />
     <bean id="MultiFiltering" class="org.example.movie.MultiFiltering"/>
     <bean id="MovieRecommenderSystem" class="org.example.movie.MovieRecommenderSystem"/>
 
